@@ -7,7 +7,7 @@ using System.Windows.Forms;
  * Name: Bishnu Khanal
  * Student Id: 300924228
  * Description: Calculator Demo Project
- * Version: 0.1 - Created the project
+ * Version: 0.2 - Started SplashForm first
  */
 namespace COMP123_S2017_LESSON12B
 {
