@@ -22,7 +22,11 @@ namespace COMP123_S2017_LESSON12B
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// This is the event handler for the "Tick" event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
             // To remove SplashForm in three seconds replaced by CalculatorForm created new object
@@ -30,7 +34,7 @@ namespace COMP123_S2017_LESSON12B
 
             calculatorForm.Show(); //method that shows CalculatorForm
             this.Hide(); //method hides SplashForm when timer triggers in three seconds.
-            SplashFormTimer.Enabled = false;//it triggers only once in three seconds
+            SplashFormTimer.Enabled = false;//it triggers only once in three seconds (turns timer off as soon as timer triggers)
         }
     }
 }
