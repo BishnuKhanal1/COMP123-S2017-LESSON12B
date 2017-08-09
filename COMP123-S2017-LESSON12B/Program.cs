@@ -21,7 +21,7 @@ namespace COMP123_S2017_LESSON12B
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CalculatorForm());
+            Application.Run(new SplashForm());
         }
     }
 }
