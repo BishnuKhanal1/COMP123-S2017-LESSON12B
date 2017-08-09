@@ -13,6 +13,7 @@ namespace COMP123_S2017_LESSON12B
 {
     static class Program
     {
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -21,6 +22,7 @@ namespace COMP123_S2017_LESSON12B
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new SplashForm());
         }
     }

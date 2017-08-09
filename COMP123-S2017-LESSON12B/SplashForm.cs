@@ -33,6 +33,7 @@ namespace COMP123_S2017_LESSON12B
             CalculatorForm calculatorForm = new CalculatorForm();
 
             calculatorForm.Show(); //method that shows CalculatorForm
+
             this.Hide(); //method hides SplashForm when timer triggers in three seconds.
             SplashFormTimer.Enabled = false;//it triggers only once in three seconds (turns timer off as soon as timer triggers)
         }
