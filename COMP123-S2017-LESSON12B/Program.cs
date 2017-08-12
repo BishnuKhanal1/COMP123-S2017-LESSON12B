@@ -7,13 +7,13 @@ using System.Windows.Forms;
  * Name: Bishnu Khanal
  * Student Id: 300924228
  * Description: Calculator Demo Project
- * Version: 0.2 - Started SplashForm first
+ * Version: 0.3 - Created an instance of the CalculatorForm
  */
 namespace COMP123_S2017_LESSON12B
 {
-    static class Program
+   public static class Program
     {
-
+        public static CalculatorForm calculatorForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -22,7 +22,7 @@ namespace COMP123_S2017_LESSON12B
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            calculatorForm = new CalculatorForm(); //instantiate a new object of calculator form
             Application.Run(new SplashForm());
         }
     }

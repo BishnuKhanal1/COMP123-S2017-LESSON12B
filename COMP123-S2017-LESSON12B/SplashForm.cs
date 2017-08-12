@@ -18,6 +18,14 @@ namespace COMP123_S2017_LESSON12B
 {
     public partial class SplashForm : Form
     {
+        //Public Properties
+        public CalculatorForm CalculatorForm
+        {
+            get
+            {
+                return Program.calculatorForm;
+            }
+        }
         public SplashForm()
         {
             InitializeComponent();
@@ -36,6 +44,11 @@ namespace COMP123_S2017_LESSON12B
 
             this.Hide(); //method hides SplashForm when timer triggers in three seconds.
             SplashFormTimer.Enabled = false;//it triggers only once in three seconds (turns timer off as soon as timer triggers)
+        }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
